@@ -15,7 +15,6 @@ header {
 
 .header-section {
     text-align: center;
-    margin: 0 auto;
     padding: 200px 150px 150px 200px;
 }
 
@@ -26,16 +25,97 @@ header {
 }
 
 .header-description {
-    color: white;
-    margin-bottom: 25px;
-    font-size: 25px;
+    color: #f3f2f2;
+    font-size: 30px;
 }
 
-.primary-btn{
+.primary-btn {
     color: white;
+    margin-top: 25px;
     font-size: x-large;
     background-color: #FF5959;
     border: none;
     border-radius: 5px;
     padding: 15px 20px;
+}
+
+/* main section styles  */
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.amount-section {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 35px;
+    color: gray;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.amount-title {
+    background: #dddcdc;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.select-amount-title {
+    padding: 50px;
+    border-radius: 5px;
+    border: 2px solid #FF5959;
+    background: #facbcb;
+}
+
+.amount-footer{
+    color: gray;
+    margin-bottom: 20px;
+}
+/* donate plan section styles */
+
+.donate-plan{
+    display: flex;
+    gap: 25px;
+    margin: 50px 0 50px 0;
+}
+.food-content, .shelter-content, .education-content{
+    padding: 50px 30px;
+    border-radius: 5px;
+
+}
+.food-content{
+    background: lightcyan;
+}
+.shelter-content{
+    background: #facbcb;
+}
+.education-content{
+    background: lightgoldenrodyellow;
+}
+.donate-plan-header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.donate-plan-description{
+    color: gray;
+    font-size: 20px;
 }
