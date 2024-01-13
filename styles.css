@@ -86,36 +86,70 @@ section {
     background: #facbcb;
 }
 
-.amount-footer{
+.amount-footer {
     color: gray;
     margin-bottom: 20px;
 }
+
 /* donate plan section styles */
 
-.donate-plan{
+.donate-plan {
     display: flex;
     gap: 25px;
     margin: 50px 0 50px 0;
 }
-.food-content, .shelter-content, .education-content{
+
+.food-content,
+.shelter-content,
+.education-content {
     padding: 50px 30px;
     border-radius: 5px;
 
 }
-.food-content{
+
+.food-content {
     background: lightcyan;
 }
-.shelter-content{
+
+.shelter-content {
     background: #facbcb;
 }
-.education-content{
+
+.education-content {
     background: lightgoldenrodyellow;
 }
-.donate-plan-header{
+
+.donate-plan-header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.donate-plan-description{
+
+.donate-plan-description {
     color: gray;
     font-size: 20px;
 }
+
+/* donation message description section */
+
+.lives-depend {
+    display: flex;
+    gap: 50px;
+}
+
+.lives-depend-header {
+    font-size: 70px;
+}
+
+.lives-depend-img {
+    height: 500px;
+    width: 480px;
+    border-radius: 8px;
+}
+
+.lives-depend-description {
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+}
+
+/* more donation section styles */
+
